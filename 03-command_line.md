@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* `pwd`: show present working directory
+* `mkdir`: create a directory
+* `rmdir dir`: delete a directory
+* `touch file`: create file
+* `rm file`: delete file
+* `mv file1 file2`: rename file1 to file2
+* `ls -a`: list all files including hidden
+* `cp file dir`: copy file to directory
+* `cp -r dir1 dir2`: copy recursively the contents of dir1 to dir2
+* `grep pattern file`: look for text matching the pattern in a file
 
 ---
 
@@ -34,7 +43,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+>
+`ls`  List files  
+`ls -a` List all files (including hidden files)  
+`ls -l` List dir contents in long format  
+`ls -lh`  List files in long format with readable file size  
+`ls -lah`  List files in long format with readable file size including hidden files  
+`ls -t` List files by timestamp  
+`ls -Glp`  List in long format, inhibit display of group information, and append a type indicator  
 
 ---
 
@@ -42,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+* `ls -d` Display only directories
+* `ls -u` Display files by time last accessed
+* `ls -R` Display subdirs
+* `ls -q` Display nonprinting chars as ?
+* `ls -t` Display by timestamp
 
 ---
 
@@ -50,7 +70,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+`xargs` allows you to run commands on the output of something. For example,  
+> `find . -name '*.txt' | xargs grep 'string'`  
+
+will find all the .txt files in the current directory, and search each one with `grep` for the given string
 
  
 
