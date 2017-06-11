@@ -81,7 +81,8 @@ Upload these 3 files to the [`editors`](editors/) folder.
 
 What terminal editor will be your preferred choice of use? How did you make your decision?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+> Nano, because its easy and inuitive for the level of work so far. Of the two
+more complex offerings, I'll use Vim.
 
 --
 
@@ -89,6 +90,12 @@ What terminal editor will be your preferred choice of use? How did you make your
 
 What graphical editor will you use? How did you make your decision? What are some interesting features of your editor? What are some useful keyboard shortcuts for your editor? How do you customize your editor?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
-
- 
+> I will use Atom. I like that it is easy-to-use, open-source and supported by GitHub, so
+> it has a strong community and can be modular to grow with me. I also like it is cross-platform,
+> since I use both a Mac and a PC. Atom is convenient and extensible. 
+>
+> Some handy Atom keyboard shortcuts: 
+> cmd + shift + p (Command Palette)
+> shift+option+d (duplicate line)
+> shift+control+k  (delete line)
+> 
